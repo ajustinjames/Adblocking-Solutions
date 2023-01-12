@@ -97,6 +97,10 @@ Twitch has started to crack down hard on adblocking. uBlock Origin no longer blo
 
 This repo collects a number of Twitch adblocking solutions. The tools listed here may no longer work as Twitch continues to fight adblocking on their site.
 
+## Twitter Mobile (Android)
+
+While Twitter on desktop can be viewed ad-free with the use of uBlock Origin, the mobile app is not ad-free. Luckily since Twitter is a PWA<sup>[6](https://blog.haseebelahi.dev/understanding-pwas-exploring-the-twitter-pwa-with-dev-tools)</sup> you can just the mobile site instead of a native app. When using the mobile website, the experience is nearly identical, but now you can use browser adblocking solutions like Firefox for Android or Brave. Firefox for Android has the option to use uBlock Origin and Brave has the option to disable showing promoted tweets. These browsers can even "install" Twitter to a your home screen to emulate a native app experience.
+
 # Blocklists
 
 You should not ad as many blocklists as possible, as it will end up blocking non-ads through false positives. It can also be resource intensive causing slowdowns and increased battery usage. You should find a balance to pick the lists you need. I currently enable all of the default blocklists in uBlock Origin
